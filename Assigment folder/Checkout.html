@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+         </style>
+</head>
+<body>
+    <header>
+        <h1>Moving Jungle</h1>
+        <nav>
+            <ul>
+                <li><a href="MovingJungle.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li class="hero"><a href="SignIn.html" target="_blank"><button>Sign In</button></a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="checkout-section">
+        <h2>Checkout</h2>
+        <form action="confirmation.html" method="POST">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="address" placeholder="Shipping Address" required>
+            <select name="payment-method" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="cash">Cash on Delivery</option>
+            </select>
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Moving Jungle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
